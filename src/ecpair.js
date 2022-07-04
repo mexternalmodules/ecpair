@@ -65,11 +65,6 @@ function ECPairFactory(ecc) {
     return fromPrivateKey(d, options);
   }
   class ECPair {
-    __D;
-    __Q;
-    compressed;
-    network;
-    lowR;
     constructor(__D, __Q, options) {
       this.__D = __D;
       this.__Q = __Q;
